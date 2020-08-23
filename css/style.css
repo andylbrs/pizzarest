@@ -56,6 +56,15 @@ header {
   color: #fff;
 }
 
+.menu-item-logo{
+  position: fixed;
+  right: 50px;
+  top: 0;
+  width: 4.5rem;
+  height: 4.5rem;
+  z-index: 2;
+}
+
 .menu-item:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
@@ -367,6 +376,7 @@ header {
       -ms-flex-align: stretch;
           align-items: stretch;
   top: 100px;
+  z-index: 1;
 }
 
 .list-antipasti {
@@ -585,6 +595,12 @@ header {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
+  color: #000;
+}
+
+.order-custom-button-phone:visited{
+  color: #000;
 }
 
 .order-info-bg-mask-0 {
@@ -912,6 +928,8 @@ header {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
+  color: #000;
 }
 
 .disc-bg-mask {
@@ -1332,28 +1350,16 @@ footer {
     display: block;
   }
 
-  .list-title-show:hover{
-    animation: rotateChange 1s linear;
-  }
 
-
-  @keyframes rotateChange{
-    0% {
-      transform: rotate(0deg);
-      opacity: 1;
-    }
-    
-    100% {
-      transform: rotate(180deg);
-      opacity: 0;
-    }
-  }
-
-  .list-item {
+  /* .list-item {
     display: none;
   }
 
   .list-price {
+    display: none;
+  } */
+
+  .list-title ~ li {
     display: none;
   }
 
@@ -1407,5 +1413,19 @@ footer {
 
   .footer {
     margin-top: -400px;
+  }
+
+  .footer-container {
+    justify-items: center;
+    -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer-title {
+    display: none;
+  }
+
+  .menu-item-logo{
+    display: none;
   }
 }

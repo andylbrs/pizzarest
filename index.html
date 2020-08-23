@@ -13,20 +13,23 @@
     <!-- HEADER -->
     <header>
         <ul class="menu">
-            <li class="menu-item"><a href="#" class="menu-item-link">HOME</a></li>
-            <li class="menu-item"><a href="#" class="menu-item-link">ABOUT</a></li>
-            <li class="menu-item"><a href="#" class="menu-item-link">MENU</a></li>
-            <li class="menu-item"><a href="#" class="menu-item-link">OFFER</a></li>
-            <li class="menu-item"><a href="#" class="menu-item-link">CONTACTS</a></li>
+            <li class="menu-item"><a href="#header-section" class="menu-item-link">HOME</a></li>
+            <li class="menu-item"><a href="#about-section" class="menu-item-link">ABOUT</a></li>
+            <li class="menu-item"><a href="#menu-section" class="menu-item-link">MENU</a></li>
+            <li class="menu-item"><a href="#disc-section" class="menu-item-link">OFFER</a></li>
+            <li class="menu-item"><a href="#contacts-section" class="menu-item-link">CONTACTS</a></li>
         </ul>
+        <img src="img/header/logo2.png" class="menu-item-logo">
         <div class="header-section">
+            <a name="header-section"></a>
             <img src="img/header/hBG.png" alt="" class="head-bg-img">
             <div class="head-bg-mask">
                 <img src="img/header/hMask1.png" alt="" class="head-bg-mask-0">
                 <img src="img/header/hMask2.png" alt="" class="head-bg-mask-1">
                 <img src="img/header/Logo.png" alt="" class="hLogo">
             </div>
-        </div>
+        </div>  
+        <a name="about-section"></a>
     </header>
     <!-- HEADER END -->
 
@@ -48,12 +51,15 @@
             <img src="img/sectionTitle/mask2.png" alt="" class="title-bg-mask-2">
             <img src="img/sectionTitle/mask3.png" alt="" class="title-bg-mask-3">
         </div>
-        <button class="btn more-info">MORE INFO</button>
+        <a href="tel:+48111111111">
+            <button class="btn more-info">MORE INFO</button>
+        </a>
     </div>
     <!-- SECTION TITLE END -->
 
     <!-- SECTION MENU -->
     <div class="section menu-section">
+        <a name="menu-section"></a>
         <div class="menu-section-bg">
             <img src="img/sectionMenu/bg.png" alt="" class="menu-bg-img">
             <img src="img/sectionMenu/mask0.png" alt="" class="menu-bg-mask-0">
@@ -62,8 +68,8 @@
         </div>
         <div class="menu-list">
             <ul class="list list-antipasti">
-                <li>
-                    <div class="list-title">ANTIPASTI
+                <li class="list-title">
+                    <div class="list-title antipasti">ANTIPASTI
                         <p class="list-title-show">	&#10006;</p>
                     </div>
                 </li>
@@ -92,8 +98,8 @@
                 </li>
             </ul>
             <ul class="list list-meat">
-                <li>
-                    <div class="list-title">MEAT
+                <li class="list-title">
+                    <div class="list-title meat">MEAT
                         <p class="list-title-show">	&#10006;</p>
                     </div>
                 </li>
@@ -122,8 +128,8 @@
                 </li>
             </ul>
             <ul class="list list-pasta">
-                <li>
-                    <div class="list-title">PASTA
+                <li class="list-title">
+                    <div class="list-title pasta">PASTA
                         <p class="list-title-show">	&#10006;</p>
                     </div>
                 </li>
@@ -152,8 +158,8 @@
                 </li>
             </ul>
             <ul class="list list-pizza">
-                <li>
-                    <div class="list-title">PIZZA
+                <li class="list-title">
+                    <div class="list-title pizza">PIZZA
                         <p class="list-title-show">	&#10006;</p>
                     </div>
                 </li>
@@ -210,8 +216,8 @@
                 </li>
             </ul>
             <ul class="list list-drink">
-                <li>
-                    <div class="list-title">DRINK
+                <li class="list-title">
+                    <div class="list-title drink">DRINK
                         <p class="list-title-show">	&#10006;</p>
                     </div>
                 </li>
@@ -245,12 +251,14 @@
 
     <div class="section order-section">
         <div class="order-info">
+            <a href="tel:+48111111111" class="order-custom-button-phone">            
             <div class="order-custom-button customBtn">
                 <div class="order-custom-button-1">
                     <p class="order-custom-button-title">FOR ORDERS <br> & DELIVERIES</p>
                     <p class="order-custom-button-phone">+(48)-111-111-11</p>
                 </div>
             </div>
+                    </a>
             <div class="order-info-bg-mask">
                 <img src="img/sectionOrders/mask0.png" alt="" class="order-info-bg-mask-0">
                 <img src="img/sectionOrders/mask1.png" alt="" class="order-info-bg-mask-1">
@@ -281,7 +289,9 @@
                     <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     <p class="info-text-visit word">COME TO VISIT US!</p>
             </div>
-            <button class="btn more-info" id="btn-sec-info">MORE INFO</button>
+            <a href="tel:+48111111111">
+                <button class="btn more-info" id="btn-sec-info">MORE INFO</button>
+            </a>
         </div>
         <div class="info-bg-mask">
             <img src="img/sectionInfo/mask0.png" alt="" class="info-bg-mask-0">
@@ -299,6 +309,7 @@
 
 
     <div class="section disc-section">
+        <a name="disc-section"></a>
         <div class="disc-info">
             <div class="disc-bg-mask">
                 <img src="img/sectionDiscount/bg.png" alt="" class="disc-bg-img">
@@ -307,12 +318,13 @@
                 <span class="disc-title-text">DISCOUNT VOUCHER!</span>
             </div>
             <div class="disc-container">
-                <div class="disc-custom-button customBtn">
-                    <div class="disc-custom-button-1">
-                        <p class="disc-custom-button-title">25% DISCOUNT</p>
+                <a  class="disc-custom-button-title" href="tel:+48111111111">
+                    <div class="disc-custom-button customBtn">
+                        <div class="disc-custom-button-1">
+                            <p class="disc-custom-button-title">25% DISCOUNT</p>
+                        </div>
                     </div>
-                </div>
-
+                </a>
                 <p class="disc-text">VALID FROM JUNE-JULY</p>
                 <p class="disc-text-offer word">GET OUR LATEST OFFERS!</p>
                 <p class="disc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
@@ -336,6 +348,7 @@
     </div>
 
     <footer class="footer">
+        <a name="contacts-section"></a>
         <div class="footer-container">
             <div class="footer-title">
                 <span class="footer-title_logo">YOUR<br>LOGO</span>
@@ -394,6 +407,7 @@
         });
     });
 </script>
-    <script src="js/main.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
